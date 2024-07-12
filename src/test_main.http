@@ -1,7 +1,12 @@
 ﻿# Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+GET http://localhost:8080/convert/
 Accept: application/json
+
+{
+  "markdown": "# hello everyone\ntoday we are gonna **discuss**.\n- so first of all, the first step\n> please note: be careful"
+}
+
 
 ###
 
